@@ -11,3 +11,18 @@ D:\Google Drive\Karolina\karolina\obj\x86\Debug\karolina.frmMDIPrincipal.resourc
 D:\Google Drive\karolina\karolina\obj\x86\Debug\karolina.frmAgregarUsuario.resources
 D:\Google Drive\karolina\karolina\obj\x86\Debug\karolina.frmEliminarUsuario.resources
 D:\Google Drive\karolina\karolina\obj\x86\Debug\karolina.frmModificarUsuario.resources
+D:\karolina\karolina\obj\x86\Debug\karolina.xml
+D:\karolina\karolina\obj\x86\Debug\karolina.pdb
+D:\karolina\karolina\bin\Debug\karolina.exe
+D:\karolina\karolina\bin\Debug\karolina.pdb
+D:\karolina\karolina\bin\Debug\karolina.xml
+D:\karolina\karolina\obj\x86\Debug\karolina.frmAgregarUsuario.resources
+D:\karolina\karolina\obj\x86\Debug\karolina.frmEliminarUsuario.resources
+D:\karolina\karolina\obj\x86\Debug\karolina.frmLogin.resources
+D:\karolina\karolina\obj\x86\Debug\karolina.frmMDIPrincipal.resources
+D:\karolina\karolina\obj\x86\Debug\karolina.frmModificarUsuario.resources
+D:\karolina\karolina\obj\x86\Debug\karolina.Resources.resources
+D:\karolina\karolina\obj\x86\Debug\karolina.exe
+D:\karolina\karolina\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\karolina\karolina\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\karolina\karolina\obj\x86\Debug\GenerateResource.write.1.tlog

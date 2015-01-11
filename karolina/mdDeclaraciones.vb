@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient   ''Hacer la llamada a la libreria correspondiente para SQL server
 Module Module1
     ''Crear cadena de conexion
-    Public Conexion As New SqlConnection("Data Source=DELL-PC\SQLEXPRESS;Initial Catalog=db_karolina;Integrated Security=True")
+    Public Conexion As New SqlConnection("Data Source=DELL-PC\SQLEXPRESS;Initial Catalog=db_karolina;User ID=UserDb;Password=admin")
     Public Comando As New SqlCommand ''declarar la variable comand y definiendola de tipo comando sql
     Public DLector As SqlDataReader ''declarar la variable DR y definirla de tipo datareader, en donde se almacenaran los resultados de comand
     ''Crear variable para usarla en todo el proyecto

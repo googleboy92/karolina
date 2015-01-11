@@ -135,7 +135,7 @@ Partial Class frmModificarUsuario
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Monotype Corsiva", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(239, 141)
+        Me.Label1.Location = New System.Drawing.Point(215, 46)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(136, 18)
         Me.Label1.TabIndex = 11

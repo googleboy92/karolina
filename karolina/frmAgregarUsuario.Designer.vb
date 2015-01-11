@@ -42,11 +42,11 @@ Partial Class frmAgregarUsuario
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Monotype Corsiva", 20.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Red
-        Me.Label1.Location = New System.Drawing.Point(231, 56)
+        Me.Label1.Font = New System.Drawing.Font("Monotype Corsiva", 20.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.IndianRed
+        Me.Label1.Location = New System.Drawing.Point(220, 29)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(273, 33)
+        Me.Label1.Size = New System.Drawing.Size(297, 33)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Agregar un Nuevo Usuario"
         '
@@ -63,7 +63,7 @@ Partial Class frmAgregarUsuario
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TabPage1.BackColor = System.Drawing.Color.LightCyan
         Me.TabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TabPage1.Controls.Add(Me.cmdCancelar)
         Me.TabPage1.Controls.Add(Me.cmdAgregarUsuario)
@@ -128,11 +128,11 @@ Partial Class frmAgregarUsuario
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Lucida Calligraphy", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.Red
+        Me.Label4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.DarkSlateGray
         Me.Label4.Location = New System.Drawing.Point(21, 127)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(244, 21)
+        Me.Label4.Size = New System.Drawing.Size(181, 18)
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "Contraseña  de la cuenta"
         '
@@ -140,11 +140,11 @@ Partial Class frmAgregarUsuario
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Lucida Calligraphy", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Red
+        Me.Label3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.DarkSlateGray
         Me.Label3.Location = New System.Drawing.Point(44, 80)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(216, 21)
+        Me.Label3.Size = New System.Drawing.Size(158, 18)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Usuario de  la Cuenta"
         '
@@ -152,11 +152,11 @@ Partial Class frmAgregarUsuario
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Lucida Handwriting", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Red
-        Me.Label2.Location = New System.Drawing.Point(-4, 26)
+        Me.Label2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.Label2.Location = New System.Drawing.Point(37, 30)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(269, 21)
+        Me.Label2.Size = New System.Drawing.Size(194, 18)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Administrador de la cuenta"
         '

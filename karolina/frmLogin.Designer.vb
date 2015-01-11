@@ -41,7 +41,7 @@ Partial Class frmLogin
         Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Aqua
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Location = New System.Drawing.Point(100, 345)
+        Me.Button1.Location = New System.Drawing.Point(51, 269)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(58, 43)
         Me.Button1.TabIndex = 3
@@ -91,7 +91,7 @@ Partial Class frmLogin
         Me.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime
         Me.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Aqua
         Me.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnCancelar.Location = New System.Drawing.Point(174, 345)
+        Me.btnCancelar.Location = New System.Drawing.Point(213, 269)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(59, 43)
         Me.btnCancelar.TabIndex = 4
@@ -102,7 +102,8 @@ Partial Class frmLogin
         '
         Me.lblLogin.AutoSize = True
         Me.lblLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLogin.Location = New System.Drawing.Point(118, 34)
+        Me.lblLogin.ForeColor = System.Drawing.Color.Sienna
+        Me.lblLogin.Location = New System.Drawing.Point(93, 55)
         Me.lblLogin.Name = "lblLogin"
         Me.lblLogin.Size = New System.Drawing.Size(96, 37)
         Me.lblLogin.TabIndex = 7
@@ -113,7 +114,8 @@ Partial Class frmLogin
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(320, 419)
+        Me.BackgroundImage = Global.karolina.My.Resources.Resources.Smart_Meter_Security
+        Me.ClientSize = New System.Drawing.Size(320, 336)
         Me.ControlBox = False
         Me.Controls.Add(Me.lblLogin)
         Me.Controls.Add(Me.btnCancelar)
