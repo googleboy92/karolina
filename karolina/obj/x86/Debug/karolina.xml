@@ -15,6 +15,22 @@ karolina
   Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
   búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
 </summary>
+</member><member name="P:karolina.My.Resources.Resources.loginazul">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:karolina.My.Resources.Resources.loginnegro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:karolina.My.Resources.Resources.loginverde">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:karolina.My.Resources.Resources.Smart_Meter_Security">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="T:karolina.My.Resources.Resources">
 	<summary>
   Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.

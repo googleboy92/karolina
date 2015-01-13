@@ -23,6 +23,4 @@ D:\karolina\karolina\obj\x86\Debug\karolina.frmMDIPrincipal.resources
 D:\karolina\karolina\obj\x86\Debug\karolina.frmModificarUsuario.resources
 D:\karolina\karolina\obj\x86\Debug\karolina.Resources.resources
 D:\karolina\karolina\obj\x86\Debug\karolina.exe
-D:\karolina\karolina\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\karolina\karolina\obj\x86\Debug\GenerateResource.read.1.tlog
-D:\karolina\karolina\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\karolina\karolina\obj\x86\Debug\karolina.vbproj.GenerateResource.Cache
