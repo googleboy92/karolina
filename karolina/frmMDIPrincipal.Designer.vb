@@ -34,12 +34,16 @@ Partial Class frmMDIPrincipal
         Me.OpcionesDeUsuarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AgregarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EliminarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FacturacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NuevaVentaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AnularFacturaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CierreDeCajaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.InventarioToolStripMenuItem, Me.ReportesDeVentasToolStripMenuItem, Me.OpcionesDeUsuarioToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.FacturacionToolStripMenuItem, Me.InventarioToolStripMenuItem, Me.ReportesDeVentasToolStripMenuItem, Me.OpcionesDeUsuarioToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(715, 24)
@@ -51,12 +55,12 @@ Partial Class frmMDIPrincipal
         Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SalirToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
         Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
-        Me.ArchivoToolStripMenuItem.Text = "Archivo"
+        Me.ArchivoToolStripMenuItem.Text = "&Archivo"
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(96, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'InventarioToolStripMenuItem
@@ -64,12 +68,12 @@ Partial Class frmMDIPrincipal
         Me.InventarioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AgregarStockToolStripMenuItem})
         Me.InventarioToolStripMenuItem.Name = "InventarioToolStripMenuItem"
         Me.InventarioToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
-        Me.InventarioToolStripMenuItem.Text = "Inventario"
+        Me.InventarioToolStripMenuItem.Text = "&Inventario"
         '
         'AgregarStockToolStripMenuItem
         '
         Me.AgregarStockToolStripMenuItem.Name = "AgregarStockToolStripMenuItem"
-        Me.AgregarStockToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.AgregarStockToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AgregarStockToolStripMenuItem.Text = "Agregar Stock"
         '
         'ReportesDeVentasToolStripMenuItem
@@ -82,19 +86,19 @@ Partial Class frmMDIPrincipal
         'DiaToolStripMenuItem
         '
         Me.DiaToolStripMenuItem.Name = "DiaToolStripMenuItem"
-        Me.DiaToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.DiaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.DiaToolStripMenuItem.Text = "Dia"
         '
         'SemanaToolStripMenuItem
         '
         Me.SemanaToolStripMenuItem.Name = "SemanaToolStripMenuItem"
-        Me.SemanaToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.SemanaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.SemanaToolStripMenuItem.Text = "Semana"
         '
         'MesToolStripMenuItem
         '
         Me.MesToolStripMenuItem.Name = "MesToolStripMenuItem"
-        Me.MesToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.MesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.MesToolStripMenuItem.Text = "Mes"
         '
         'OpcionesDeUsuarioToolStripMenuItem
@@ -115,6 +119,31 @@ Partial Class frmMDIPrincipal
         Me.EliminarToolStripMenuItem.Name = "EliminarToolStripMenuItem"
         Me.EliminarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.EliminarToolStripMenuItem.Text = "Eliminar"
+        '
+        'FacturacionToolStripMenuItem
+        '
+        Me.FacturacionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaVentaToolStripMenuItem, Me.AnularFacturaToolStripMenuItem, Me.CierreDeCajaToolStripMenuItem})
+        Me.FacturacionToolStripMenuItem.Name = "FacturacionToolStripMenuItem"
+        Me.FacturacionToolStripMenuItem.Size = New System.Drawing.Size(81, 20)
+        Me.FacturacionToolStripMenuItem.Text = "&Facturacion"
+        '
+        'NuevaVentaToolStripMenuItem
+        '
+        Me.NuevaVentaToolStripMenuItem.Name = "NuevaVentaToolStripMenuItem"
+        Me.NuevaVentaToolStripMenuItem.Size = New System.Drawing.Size(159, 22)
+        Me.NuevaVentaToolStripMenuItem.Text = "Nueva Venta"
+        '
+        'AnularFacturaToolStripMenuItem
+        '
+        Me.AnularFacturaToolStripMenuItem.Name = "AnularFacturaToolStripMenuItem"
+        Me.AnularFacturaToolStripMenuItem.Size = New System.Drawing.Size(159, 22)
+        Me.AnularFacturaToolStripMenuItem.Text = "Anular Factura"
+        '
+        'CierreDeCajaToolStripMenuItem
+        '
+        Me.CierreDeCajaToolStripMenuItem.Name = "CierreDeCajaToolStripMenuItem"
+        Me.CierreDeCajaToolStripMenuItem.Size = New System.Drawing.Size(159, 22)
+        Me.CierreDeCajaToolStripMenuItem.Text = "Cierre de Ventas"
         '
         'frmMDIPrincipal
         '
@@ -147,4 +176,8 @@ Partial Class frmMDIPrincipal
     Friend WithEvents OpcionesDeUsuarioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AgregarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EliminarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents FacturacionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NuevaVentaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AnularFacturaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CierreDeCajaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

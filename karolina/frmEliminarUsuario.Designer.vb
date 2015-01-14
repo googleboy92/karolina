@@ -44,14 +44,14 @@ Partial Class frmEliminarUsuario
         '
         'txtUsuario
         '
-        Me.txtUsuario.Location = New System.Drawing.Point(202, 143)
+        Me.txtUsuario.Location = New System.Drawing.Point(202, 108)
         Me.txtUsuario.Name = "txtUsuario"
         Me.txtUsuario.Size = New System.Drawing.Size(211, 20)
         Me.txtUsuario.TabIndex = 20
         '
         'txtAministrador
         '
-        Me.txtAministrador.Location = New System.Drawing.Point(201, 105)
+        Me.txtAministrador.Location = New System.Drawing.Point(202, 142)
         Me.txtAministrador.Name = "txtAministrador"
         Me.txtAministrador.Size = New System.Drawing.Size(211, 20)
         Me.txtAministrador.TabIndex = 19
@@ -67,35 +67,37 @@ Partial Class frmEliminarUsuario
         '
         Me.cmdCancelar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.cmdCancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.cmdCancelar.ForeColor = System.Drawing.Color.White
-        Me.cmdCancelar.Location = New System.Drawing.Point(231, 214)
+        Me.cmdCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdCancelar.ForeColor = System.Drawing.Color.Black
+        Me.cmdCancelar.Location = New System.Drawing.Point(261, 214)
         Me.cmdCancelar.Name = "cmdCancelar"
-        Me.cmdCancelar.Size = New System.Drawing.Size(64, 33)
+        Me.cmdCancelar.Size = New System.Drawing.Size(59, 46)
         Me.cmdCancelar.TabIndex = 17
         Me.cmdCancelar.Text = "Cancelar"
         Me.cmdCancelar.UseVisualStyleBackColor = False
         '
         'cmdEliminar
         '
-        Me.cmdEliminar.BackColor = System.Drawing.Color.Transparent
+        Me.cmdEliminar.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.cmdEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.cmdEliminar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.cmdEliminar.Location = New System.Drawing.Point(177, 214)
+        Me.cmdEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdEliminar.ForeColor = System.Drawing.Color.Black
+        Me.cmdEliminar.Location = New System.Drawing.Point(158, 214)
         Me.cmdEliminar.Name = "cmdEliminar"
-        Me.cmdEliminar.Size = New System.Drawing.Size(40, 33)
+        Me.cmdEliminar.Size = New System.Drawing.Size(59, 46)
         Me.cmdEliminar.TabIndex = 16
+        Me.cmdEliminar.Text = "Aceptar"
         Me.cmdEliminar.UseVisualStyleBackColor = False
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label5.Font = New System.Drawing.Font("Monotype Corsiva", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(141, 37)
+        Me.Label5.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(174, 25)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(134, 24)
+        Me.Label5.Size = New System.Drawing.Size(135, 19)
         Me.Label5.TabIndex = 15
         Me.Label5.Text = "Eliminar Usuario"
         '
@@ -103,12 +105,11 @@ Partial Class frmEliminarUsuario
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label4.Font = New System.Drawing.Font("Monotype Corsiva", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Label4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label4.Location = New System.Drawing.Point(106, 172)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(89, 24)
+        Me.Label4.Size = New System.Drawing.Size(89, 18)
         Me.Label4.TabIndex = 14
         Me.Label4.Text = "Contraseña"
         '
@@ -116,12 +117,11 @@ Partial Class frmEliminarUsuario
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label3.Font = New System.Drawing.Font("Monotype Corsiva", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(75, 143)
+        Me.Label3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(77, 107)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(121, 24)
+        Me.Label3.Size = New System.Drawing.Size(116, 18)
         Me.Label3.TabIndex = 13
         Me.Label3.Text = "Usuario Cuenta"
         '
@@ -129,12 +129,11 @@ Partial Class frmEliminarUsuario
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label2.Font = New System.Drawing.Font("Monotype Corsiva", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(32, 112)
+        Me.Label2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(35, 141)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(164, 24)
+        Me.Label2.Size = New System.Drawing.Size(160, 18)
         Me.Label2.TabIndex = 12
         Me.Label2.Text = "Administrador Cuenta"
         '
@@ -142,12 +141,11 @@ Partial Class frmEliminarUsuario
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label1.Font = New System.Drawing.Font("Monotype Corsiva", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(77, 79)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(119, 24)
+        Me.Label1.Size = New System.Drawing.Size(118, 18)
         Me.Label1.TabIndex = 11
         Me.Label1.Text = "Codigo Usuario"
         '

@@ -41,7 +41,7 @@ Partial Class frmLogin
         Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Aqua
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Location = New System.Drawing.Point(124, 269)
+        Me.Button1.Location = New System.Drawing.Point(137, 269)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(59, 43)
         Me.Button1.TabIndex = 3
@@ -97,7 +97,7 @@ Partial Class frmLogin
         Me.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime
         Me.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Aqua
         Me.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnCancelar.Location = New System.Drawing.Point(213, 269)
+        Me.btnCancelar.Location = New System.Drawing.Point(226, 269)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(59, 43)
         Me.btnCancelar.TabIndex = 4

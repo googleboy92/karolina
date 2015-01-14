@@ -35,21 +35,24 @@ Partial Class frmFactura
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.txtNumeroFactura = New System.Windows.Forms.TextBox()
+        Me.txtFecha = New System.Windows.Forms.TextBox()
+        Me.txtCodigoCliente = New System.Windows.Forms.TextBox()
+        Me.txtNombreCliente = New System.Windows.Forms.TextBox()
+        Me.txtDireccion = New System.Windows.Forms.TextBox()
+        Me.txtTelefono = New System.Windows.Forms.TextBox()
+        Me.txtSubtotal = New System.Windows.Forms.TextBox()
+        Me.txtIva = New System.Windows.Forms.TextBox()
+        Me.txtTotal = New System.Windows.Forms.TextBox()
+        Me.txtCedula = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(29, 168)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Location = New System.Drawing.Point(101, 106)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(94, 13)
         Me.Label1.TabIndex = 0
@@ -58,7 +61,8 @@ Partial Class frmFactura
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(201, 428)
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Location = New System.Drawing.Point(263, 290)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(31, 13)
         Me.Label2.TabIndex = 1
@@ -67,7 +71,8 @@ Partial Class frmFactura
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(282, 68)
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Location = New System.Drawing.Point(361, 23)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(53, 13)
         Me.Label3.TabIndex = 2
@@ -76,7 +81,7 @@ Partial Class frmFactura
         'btnDetalleFactura
         '
         Me.btnDetalleFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnDetalleFactura.Location = New System.Drawing.Point(438, 222)
+        Me.btnDetalleFactura.Location = New System.Drawing.Point(113, 347)
         Me.btnDetalleFactura.Name = "btnDetalleFactura"
         Me.btnDetalleFactura.Size = New System.Drawing.Size(78, 69)
         Me.btnDetalleFactura.TabIndex = 3
@@ -86,7 +91,7 @@ Partial Class frmFactura
         'btnAnular
         '
         Me.btnAnular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAnular.Location = New System.Drawing.Point(438, 126)
+        Me.btnAnular.Location = New System.Drawing.Point(12, 347)
         Me.btnAnular.Name = "btnAnular"
         Me.btnAnular.Size = New System.Drawing.Size(78, 69)
         Me.btnAnular.TabIndex = 4
@@ -96,7 +101,7 @@ Partial Class frmFactura
         'btnImprimirFactura
         '
         Me.btnImprimirFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnImprimirFactura.Location = New System.Drawing.Point(438, 316)
+        Me.btnImprimirFactura.Location = New System.Drawing.Point(211, 347)
         Me.btnImprimirFactura.Name = "btnImprimirFactura"
         Me.btnImprimirFactura.Size = New System.Drawing.Size(78, 69)
         Me.btnImprimirFactura.TabIndex = 4
@@ -106,7 +111,7 @@ Partial Class frmFactura
         'btnSalir
         '
         Me.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSalir.Location = New System.Drawing.Point(438, 409)
+        Me.btnSalir.Location = New System.Drawing.Point(307, 347)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(78, 69)
         Me.btnSalir.TabIndex = 4
@@ -116,7 +121,8 @@ Partial Class frmFactura
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(208, 400)
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Location = New System.Drawing.Point(270, 262)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(24, 13)
         Me.Label4.TabIndex = 5
@@ -125,7 +131,8 @@ Partial Class frmFactura
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(193, 371)
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Location = New System.Drawing.Point(255, 233)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(46, 13)
         Me.Label5.TabIndex = 6
@@ -134,7 +141,8 @@ Partial Class frmFactura
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(29, 200)
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Location = New System.Drawing.Point(101, 138)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(52, 13)
         Me.Label6.TabIndex = 7
@@ -143,7 +151,8 @@ Partial Class frmFactura
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(29, 135)
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Location = New System.Drawing.Point(101, 73)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(90, 13)
         Me.Label7.TabIndex = 8
@@ -152,7 +161,8 @@ Partial Class frmFactura
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(282, 94)
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Location = New System.Drawing.Point(361, 49)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(37, 13)
         Me.Label8.TabIndex = 9
@@ -161,89 +171,110 @@ Partial Class frmFactura
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(29, 228)
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Location = New System.Drawing.Point(101, 194)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(49, 13)
         Me.Label9.TabIndex = 10
         Me.Label9.Text = "Telefono"
         '
-        'TextBox1
+        'txtNumeroFactura
         '
-        Me.TextBox1.Location = New System.Drawing.Point(352, 61)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 11
+        Me.txtNumeroFactura.Location = New System.Drawing.Point(431, 16)
+        Me.txtNumeroFactura.Name = "txtNumeroFactura"
+        Me.txtNumeroFactura.Size = New System.Drawing.Size(100, 20)
+        Me.txtNumeroFactura.TabIndex = 11
         '
-        'TextBox2
+        'txtFecha
         '
-        Me.TextBox2.Location = New System.Drawing.Point(352, 91)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 12
+        Me.txtFecha.Location = New System.Drawing.Point(431, 46)
+        Me.txtFecha.Name = "txtFecha"
+        Me.txtFecha.Size = New System.Drawing.Size(100, 20)
+        Me.txtFecha.TabIndex = 12
         '
-        'TextBox3
+        'txtCodigoCliente
         '
-        Me.TextBox3.Location = New System.Drawing.Point(139, 132)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(196, 20)
-        Me.TextBox3.TabIndex = 13
+        Me.txtCodigoCliente.Location = New System.Drawing.Point(211, 70)
+        Me.txtCodigoCliente.Name = "txtCodigoCliente"
+        Me.txtCodigoCliente.Size = New System.Drawing.Size(93, 20)
+        Me.txtCodigoCliente.TabIndex = 13
         '
-        'TextBox4
+        'txtNombreCliente
         '
-        Me.TextBox4.Location = New System.Drawing.Point(139, 161)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(196, 20)
-        Me.TextBox4.TabIndex = 14
+        Me.txtNombreCliente.Location = New System.Drawing.Point(211, 99)
+        Me.txtNombreCliente.Name = "txtNombreCliente"
+        Me.txtNombreCliente.Size = New System.Drawing.Size(196, 20)
+        Me.txtNombreCliente.TabIndex = 14
         '
-        'TextBox5
+        'txtDireccion
         '
-        Me.TextBox5.Location = New System.Drawing.Point(139, 193)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(196, 20)
-        Me.TextBox5.TabIndex = 15
+        Me.txtDireccion.Location = New System.Drawing.Point(211, 131)
+        Me.txtDireccion.Name = "txtDireccion"
+        Me.txtDireccion.Size = New System.Drawing.Size(196, 20)
+        Me.txtDireccion.TabIndex = 15
         '
-        'TextBox6
+        'txtTelefono
         '
-        Me.TextBox6.Location = New System.Drawing.Point(139, 221)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(196, 20)
-        Me.TextBox6.TabIndex = 16
+        Me.txtTelefono.Location = New System.Drawing.Point(211, 187)
+        Me.txtTelefono.Name = "txtTelefono"
+        Me.txtTelefono.Size = New System.Drawing.Size(196, 20)
+        Me.txtTelefono.TabIndex = 16
         '
-        'TextBox7
+        'txtSubtotal
         '
-        Me.TextBox7.Location = New System.Drawing.Point(245, 364)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox7.TabIndex = 17
+        Me.txtSubtotal.Location = New System.Drawing.Point(307, 226)
+        Me.txtSubtotal.Name = "txtSubtotal"
+        Me.txtSubtotal.Size = New System.Drawing.Size(100, 20)
+        Me.txtSubtotal.TabIndex = 17
         '
-        'TextBox8
+        'txtIva
         '
-        Me.TextBox8.Location = New System.Drawing.Point(245, 393)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox8.TabIndex = 18
+        Me.txtIva.Location = New System.Drawing.Point(307, 255)
+        Me.txtIva.Name = "txtIva"
+        Me.txtIva.Size = New System.Drawing.Size(100, 20)
+        Me.txtIva.TabIndex = 18
         '
-        'TextBox9
+        'txtTotal
         '
-        Me.TextBox9.Location = New System.Drawing.Point(245, 421)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox9.TabIndex = 19
+        Me.txtTotal.Location = New System.Drawing.Point(307, 283)
+        Me.txtTotal.Name = "txtTotal"
+        Me.txtTotal.Size = New System.Drawing.Size(100, 20)
+        Me.txtTotal.TabIndex = 19
+        '
+        'txtCedula
+        '
+        Me.txtCedula.Location = New System.Drawing.Point(211, 160)
+        Me.txtCedula.Name = "txtCedula"
+        Me.txtCedula.Size = New System.Drawing.Size(196, 20)
+        Me.txtCedula.TabIndex = 16
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Location = New System.Drawing.Point(101, 167)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(40, 13)
+        Me.Label10.TabIndex = 20
+        Me.Label10.Text = "Cedula"
         '
         'frmFactura
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(547, 502)
-        Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.BackgroundImage = Global.karolina.My.Resources.Resources.factura
+        Me.ClientSize = New System.Drawing.Size(547, 456)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.txtTotal)
+        Me.Controls.Add(Me.txtIva)
+        Me.Controls.Add(Me.txtSubtotal)
+        Me.Controls.Add(Me.txtCedula)
+        Me.Controls.Add(Me.txtTelefono)
+        Me.Controls.Add(Me.txtDireccion)
+        Me.Controls.Add(Me.txtNombreCliente)
+        Me.Controls.Add(Me.txtCodigoCliente)
+        Me.Controls.Add(Me.txtFecha)
+        Me.Controls.Add(Me.txtNumeroFactura)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
@@ -276,13 +307,15 @@ Partial Class frmFactura
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
+    Friend WithEvents txtNumeroFactura As System.Windows.Forms.TextBox
+    Friend WithEvents txtFecha As System.Windows.Forms.TextBox
+    Friend WithEvents txtCodigoCliente As System.Windows.Forms.TextBox
+    Friend WithEvents txtNombreCliente As System.Windows.Forms.TextBox
+    Friend WithEvents txtDireccion As System.Windows.Forms.TextBox
+    Friend WithEvents txtTelefono As System.Windows.Forms.TextBox
+    Friend WithEvents txtSubtotal As System.Windows.Forms.TextBox
+    Friend WithEvents txtIva As System.Windows.Forms.TextBox
+    Friend WithEvents txtTotal As System.Windows.Forms.TextBox
+    Friend WithEvents txtCedula As System.Windows.Forms.TextBox
+    Friend WithEvents Label10 As System.Windows.Forms.Label
 End Class

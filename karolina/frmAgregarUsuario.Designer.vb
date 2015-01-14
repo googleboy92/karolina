@@ -63,7 +63,7 @@ Partial Class frmAgregarUsuario
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.LightCyan
+        Me.TabPage1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.TabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TabPage1.Controls.Add(Me.cmdCancelar)
         Me.TabPage1.Controls.Add(Me.cmdAgregarUsuario)
@@ -83,8 +83,9 @@ Partial Class frmAgregarUsuario
         '
         'cmdCancelar
         '
-        Me.cmdCancelar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.cmdCancelar.Font = New System.Drawing.Font("Lucida Calligraphy", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdCancelar.BackColor = System.Drawing.Color.Silver
+        Me.cmdCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdCancelar.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdCancelar.Location = New System.Drawing.Point(247, 195)
         Me.cmdCancelar.Name = "cmdCancelar"
         Me.cmdCancelar.Size = New System.Drawing.Size(109, 54)
@@ -94,8 +95,9 @@ Partial Class frmAgregarUsuario
         '
         'cmdAgregarUsuario
         '
-        Me.cmdAgregarUsuario.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.cmdAgregarUsuario.Font = New System.Drawing.Font("Lucida Handwriting", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdAgregarUsuario.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.cmdAgregarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdAgregarUsuario.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdAgregarUsuario.Location = New System.Drawing.Point(125, 195)
         Me.cmdAgregarUsuario.Name = "cmdAgregarUsuario"
         Me.cmdAgregarUsuario.Size = New System.Drawing.Size(105, 54)
@@ -175,6 +177,7 @@ Partial Class frmAgregarUsuario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.ClientSize = New System.Drawing.Size(697, 444)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TabControl1)

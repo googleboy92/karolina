@@ -79,6 +79,12 @@
     <Compile Include="frmAgregarUsuario.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmDetalleVenta.Designer.vb">
+      <DependentUpon>frmDetalleVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetalleVenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmEliminarUsuario.Designer.vb">
       <DependentUpon>frmEliminarUsuario.vb</DependentUpon>
     </Compile>
@@ -122,11 +128,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -137,8 +138,14 @@
     <EmbeddedResource Include="frmAgregarUsuario.resx">
       <DependentUpon>frmAgregarUsuario.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDetalleVenta.resx">
+      <DependentUpon>frmDetalleVenta.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEliminarUsuario.resx">
       <DependentUpon>frmEliminarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstock.resx">
+      <DependentUpon>frmEstock.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmFactura.resx">
       <DependentUpon>frmFactura.vb</DependentUpon>
@@ -154,7 +161,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -181,6 +187,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\loginverde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Floppy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuevo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pintura-470x260.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5059818630_74ed331b91_z.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
