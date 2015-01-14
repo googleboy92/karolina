@@ -25,34 +25,34 @@ Partial Class frmFactura
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.btnDetalleFactura = New System.Windows.Forms.Button()
-        Me.btnAnular = New System.Windows.Forms.Button()
-        Me.btnImprimirFactura = New System.Windows.Forms.Button()
-        Me.btnSalir = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.txtNumeroFactura = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.btnNuevo = New System.Windows.Forms.Button()
+        Me.btnDetalleFactura = New System.Windows.Forms.Button()
+        Me.btnAnularFactura = New System.Windows.Forms.Button()
+        Me.btnSalir = New System.Windows.Forms.Button()
+        Me.txtFacturaNumero = New System.Windows.Forms.TextBox()
         Me.txtFecha = New System.Windows.Forms.TextBox()
-        Me.txtCodigoCliente = New System.Windows.Forms.TextBox()
-        Me.txtNombreCliente = New System.Windows.Forms.TextBox()
-        Me.txtDireccion = New System.Windows.Forms.TextBox()
         Me.txtTelefono = New System.Windows.Forms.TextBox()
         Me.txtSubtotal = New System.Windows.Forms.TextBox()
-        Me.txtIva = New System.Windows.Forms.TextBox()
         Me.txtTotal = New System.Windows.Forms.TextBox()
-        Me.txtCedula = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
+        Me.txtIdentificacion = New System.Windows.Forms.TextBox()
+        Me.txtImpuesto = New System.Windows.Forms.TextBox()
+        Me.txtDireccion = New System.Windows.Forms.TextBox()
+        Me.txtNombreCliente = New System.Windows.Forms.TextBox()
+        Me.txtCodigoCliente = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(101, 106)
+        Me.Label1.Location = New System.Drawing.Point(70, 135)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(94, 13)
         Me.Label1.TabIndex = 0
@@ -62,230 +62,237 @@ Partial Class frmFactura
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Location = New System.Drawing.Point(263, 290)
+        Me.Label2.Location = New System.Drawing.Point(70, 104)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(31, 13)
+        Me.Label2.Size = New System.Drawing.Size(90, 13)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Total"
+        Me.Label2.Text = "Codigo de Cliente"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Location = New System.Drawing.Point(361, 23)
+        Me.Label3.Location = New System.Drawing.Point(348, 43)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(53, 13)
+        Me.Label3.Size = New System.Drawing.Size(37, 13)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Factura #"
-        '
-        'btnDetalleFactura
-        '
-        Me.btnDetalleFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnDetalleFactura.Location = New System.Drawing.Point(113, 347)
-        Me.btnDetalleFactura.Name = "btnDetalleFactura"
-        Me.btnDetalleFactura.Size = New System.Drawing.Size(78, 69)
-        Me.btnDetalleFactura.TabIndex = 3
-        Me.btnDetalleFactura.Text = "Detalle de Factura"
-        Me.btnDetalleFactura.UseVisualStyleBackColor = True
-        '
-        'btnAnular
-        '
-        Me.btnAnular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAnular.Location = New System.Drawing.Point(12, 347)
-        Me.btnAnular.Name = "btnAnular"
-        Me.btnAnular.Size = New System.Drawing.Size(78, 69)
-        Me.btnAnular.TabIndex = 4
-        Me.btnAnular.Text = "Anular Factura"
-        Me.btnAnular.UseVisualStyleBackColor = True
-        '
-        'btnImprimirFactura
-        '
-        Me.btnImprimirFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnImprimirFactura.Location = New System.Drawing.Point(211, 347)
-        Me.btnImprimirFactura.Name = "btnImprimirFactura"
-        Me.btnImprimirFactura.Size = New System.Drawing.Size(78, 69)
-        Me.btnImprimirFactura.TabIndex = 4
-        Me.btnImprimirFactura.Text = "Imprimir"
-        Me.btnImprimirFactura.UseVisualStyleBackColor = True
-        '
-        'btnSalir
-        '
-        Me.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSalir.Location = New System.Drawing.Point(307, 347)
-        Me.btnSalir.Name = "btnSalir"
-        Me.btnSalir.Size = New System.Drawing.Size(78, 69)
-        Me.btnSalir.TabIndex = 4
-        Me.btnSalir.Text = "Salir"
-        Me.btnSalir.UseVisualStyleBackColor = True
+        Me.Label3.Text = "Fecha"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Location = New System.Drawing.Point(270, 262)
+        Me.Label4.Location = New System.Drawing.Point(348, 16)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(24, 13)
-        Me.Label4.TabIndex = 5
-        Me.Label4.Text = "IVA"
+        Me.Label4.Size = New System.Drawing.Size(53, 13)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "Factura #"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Location = New System.Drawing.Point(255, 233)
+        Me.Label5.Location = New System.Drawing.Point(70, 163)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(46, 13)
-        Me.Label5.TabIndex = 6
-        Me.Label5.Text = "Subtotal"
+        Me.Label5.Size = New System.Drawing.Size(52, 13)
+        Me.Label5.TabIndex = 5
+        Me.Label5.Text = "Direccion"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Location = New System.Drawing.Point(101, 138)
+        Me.Label6.Location = New System.Drawing.Point(70, 194)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(52, 13)
-        Me.Label6.TabIndex = 7
-        Me.Label6.Text = "Direccion"
+        Me.Label6.Size = New System.Drawing.Size(70, 13)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "Identificacion"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Location = New System.Drawing.Point(101, 73)
+        Me.Label7.Location = New System.Drawing.Point(116, 347)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(90, 13)
-        Me.Label7.TabIndex = 8
-        Me.Label7.Text = "Codigo de Cliente"
+        Me.Label7.Size = New System.Drawing.Size(50, 13)
+        Me.Label7.TabIndex = 9
+        Me.Label7.Text = "Impuesto"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Location = New System.Drawing.Point(361, 49)
+        Me.Label8.Location = New System.Drawing.Point(116, 378)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(37, 13)
-        Me.Label8.TabIndex = 9
-        Me.Label8.Text = "Fecha"
+        Me.Label8.Size = New System.Drawing.Size(31, 13)
+        Me.Label8.TabIndex = 8
+        Me.Label8.Text = "Total"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Location = New System.Drawing.Point(101, 194)
+        Me.Label9.Location = New System.Drawing.Point(71, 219)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(49, 13)
-        Me.Label9.TabIndex = 10
+        Me.Label9.TabIndex = 7
         Me.Label9.Text = "Telefono"
-        '
-        'txtNumeroFactura
-        '
-        Me.txtNumeroFactura.Location = New System.Drawing.Point(431, 16)
-        Me.txtNumeroFactura.Name = "txtNumeroFactura"
-        Me.txtNumeroFactura.Size = New System.Drawing.Size(100, 20)
-        Me.txtNumeroFactura.TabIndex = 11
-        '
-        'txtFecha
-        '
-        Me.txtFecha.Location = New System.Drawing.Point(431, 46)
-        Me.txtFecha.Name = "txtFecha"
-        Me.txtFecha.Size = New System.Drawing.Size(100, 20)
-        Me.txtFecha.TabIndex = 12
-        '
-        'txtCodigoCliente
-        '
-        Me.txtCodigoCliente.Location = New System.Drawing.Point(211, 70)
-        Me.txtCodigoCliente.Name = "txtCodigoCliente"
-        Me.txtCodigoCliente.Size = New System.Drawing.Size(93, 20)
-        Me.txtCodigoCliente.TabIndex = 13
-        '
-        'txtNombreCliente
-        '
-        Me.txtNombreCliente.Location = New System.Drawing.Point(211, 99)
-        Me.txtNombreCliente.Name = "txtNombreCliente"
-        Me.txtNombreCliente.Size = New System.Drawing.Size(196, 20)
-        Me.txtNombreCliente.TabIndex = 14
-        '
-        'txtDireccion
-        '
-        Me.txtDireccion.Location = New System.Drawing.Point(211, 131)
-        Me.txtDireccion.Name = "txtDireccion"
-        Me.txtDireccion.Size = New System.Drawing.Size(196, 20)
-        Me.txtDireccion.TabIndex = 15
-        '
-        'txtTelefono
-        '
-        Me.txtTelefono.Location = New System.Drawing.Point(211, 187)
-        Me.txtTelefono.Name = "txtTelefono"
-        Me.txtTelefono.Size = New System.Drawing.Size(196, 20)
-        Me.txtTelefono.TabIndex = 16
-        '
-        'txtSubtotal
-        '
-        Me.txtSubtotal.Location = New System.Drawing.Point(307, 226)
-        Me.txtSubtotal.Name = "txtSubtotal"
-        Me.txtSubtotal.Size = New System.Drawing.Size(100, 20)
-        Me.txtSubtotal.TabIndex = 17
-        '
-        'txtIva
-        '
-        Me.txtIva.Location = New System.Drawing.Point(307, 255)
-        Me.txtIva.Name = "txtIva"
-        Me.txtIva.Size = New System.Drawing.Size(100, 20)
-        Me.txtIva.TabIndex = 18
-        '
-        'txtTotal
-        '
-        Me.txtTotal.Location = New System.Drawing.Point(307, 283)
-        Me.txtTotal.Name = "txtTotal"
-        Me.txtTotal.Size = New System.Drawing.Size(100, 20)
-        Me.txtTotal.TabIndex = 19
-        '
-        'txtCedula
-        '
-        Me.txtCedula.Location = New System.Drawing.Point(211, 160)
-        Me.txtCedula.Name = "txtCedula"
-        Me.txtCedula.Size = New System.Drawing.Size(196, 20)
-        Me.txtCedula.TabIndex = 16
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
-        Me.Label10.Location = New System.Drawing.Point(101, 167)
+        Me.Label10.Location = New System.Drawing.Point(116, 319)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(40, 13)
-        Me.Label10.TabIndex = 20
-        Me.Label10.Text = "Cedula"
+        Me.Label10.Size = New System.Drawing.Size(53, 13)
+        Me.Label10.TabIndex = 6
+        Me.Label10.Text = "Sub-Total"
+        '
+        'btnNuevo
+        '
+        Me.btnNuevo.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnNuevo.Location = New System.Drawing.Point(433, 107)
+        Me.btnNuevo.Name = "btnNuevo"
+        Me.btnNuevo.Size = New System.Drawing.Size(78, 69)
+        Me.btnNuevo.TabIndex = 10
+        Me.btnNuevo.Text = "Nuevo"
+        Me.btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnNuevo.UseVisualStyleBackColor = False
+        '
+        'btnDetalleFactura
+        '
+        Me.btnDetalleFactura.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnDetalleFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnDetalleFactura.Location = New System.Drawing.Point(433, 194)
+        Me.btnDetalleFactura.Name = "btnDetalleFactura"
+        Me.btnDetalleFactura.Size = New System.Drawing.Size(78, 69)
+        Me.btnDetalleFactura.TabIndex = 11
+        Me.btnDetalleFactura.Text = "Detalle Factura"
+        Me.btnDetalleFactura.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnDetalleFactura.UseVisualStyleBackColor = False
+        '
+        'btnAnularFactura
+        '
+        Me.btnAnularFactura.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnAnularFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAnularFactura.Location = New System.Drawing.Point(433, 276)
+        Me.btnAnularFactura.Name = "btnAnularFactura"
+        Me.btnAnularFactura.Size = New System.Drawing.Size(78, 69)
+        Me.btnAnularFactura.TabIndex = 12
+        Me.btnAnularFactura.Text = "Anular Factura"
+        Me.btnAnularFactura.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnAnularFactura.UseVisualStyleBackColor = False
+        '
+        'btnSalir
+        '
+        Me.btnSalir.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSalir.Location = New System.Drawing.Point(433, 358)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(78, 69)
+        Me.btnSalir.TabIndex = 13
+        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnSalir.UseVisualStyleBackColor = False
+        '
+        'txtFacturaNumero
+        '
+        Me.txtFacturaNumero.Location = New System.Drawing.Point(411, 9)
+        Me.txtFacturaNumero.Name = "txtFacturaNumero"
+        Me.txtFacturaNumero.Size = New System.Drawing.Size(100, 20)
+        Me.txtFacturaNumero.TabIndex = 14
+        '
+        'txtFecha
+        '
+        Me.txtFecha.Location = New System.Drawing.Point(411, 43)
+        Me.txtFecha.Name = "txtFecha"
+        Me.txtFecha.Size = New System.Drawing.Size(100, 20)
+        Me.txtFecha.TabIndex = 15
+        '
+        'txtTelefono
+        '
+        Me.txtTelefono.Location = New System.Drawing.Point(179, 216)
+        Me.txtTelefono.Name = "txtTelefono"
+        Me.txtTelefono.Size = New System.Drawing.Size(191, 20)
+        Me.txtTelefono.TabIndex = 16
+        '
+        'txtSubtotal
+        '
+        Me.txtSubtotal.Location = New System.Drawing.Point(188, 312)
+        Me.txtSubtotal.Name = "txtSubtotal"
+        Me.txtSubtotal.Size = New System.Drawing.Size(100, 20)
+        Me.txtSubtotal.TabIndex = 18
+        '
+        'txtTotal
+        '
+        Me.txtTotal.Location = New System.Drawing.Point(188, 375)
+        Me.txtTotal.Name = "txtTotal"
+        Me.txtTotal.Size = New System.Drawing.Size(100, 20)
+        Me.txtTotal.TabIndex = 21
+        '
+        'txtIdentificacion
+        '
+        Me.txtIdentificacion.Location = New System.Drawing.Point(179, 191)
+        Me.txtIdentificacion.Name = "txtIdentificacion"
+        Me.txtIdentificacion.Size = New System.Drawing.Size(191, 20)
+        Me.txtIdentificacion.TabIndex = 20
+        '
+        'txtImpuesto
+        '
+        Me.txtImpuesto.Location = New System.Drawing.Point(188, 344)
+        Me.txtImpuesto.Name = "txtImpuesto"
+        Me.txtImpuesto.Size = New System.Drawing.Size(100, 20)
+        Me.txtImpuesto.TabIndex = 23
+        '
+        'txtDireccion
+        '
+        Me.txtDireccion.Location = New System.Drawing.Point(179, 160)
+        Me.txtDireccion.Name = "txtDireccion"
+        Me.txtDireccion.Size = New System.Drawing.Size(191, 20)
+        Me.txtDireccion.TabIndex = 22
+        '
+        'txtNombreCliente
+        '
+        Me.txtNombreCliente.Location = New System.Drawing.Point(179, 132)
+        Me.txtNombreCliente.Name = "txtNombreCliente"
+        Me.txtNombreCliente.Size = New System.Drawing.Size(191, 20)
+        Me.txtNombreCliente.TabIndex = 25
+        '
+        'txtCodigoCliente
+        '
+        Me.txtCodigoCliente.Location = New System.Drawing.Point(179, 101)
+        Me.txtCodigoCliente.Name = "txtCodigoCliente"
+        Me.txtCodigoCliente.Size = New System.Drawing.Size(100, 20)
+        Me.txtCodigoCliente.TabIndex = 24
         '
         'frmFactura
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.karolina.My.Resources.
-
-        Me.ClientSize = New System.Drawing.Size(547, 456)
-        Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.txtTotal)
-        Me.Controls.Add(Me.txtIva)
-        Me.Controls.Add(Me.txtSubtotal)
-        Me.Controls.Add(Me.txtCedula)
-        Me.Controls.Add(Me.txtTelefono)
-        Me.Controls.Add(Me.txtDireccion)
+        Me.BackgroundImage = Global.karolina.My.Resources.Resources.factura
+        Me.ClientSize = New System.Drawing.Size(555, 456)
         Me.Controls.Add(Me.txtNombreCliente)
         Me.Controls.Add(Me.txtCodigoCliente)
+        Me.Controls.Add(Me.txtImpuesto)
+        Me.Controls.Add(Me.txtDireccion)
+        Me.Controls.Add(Me.txtTotal)
+        Me.Controls.Add(Me.txtIdentificacion)
+        Me.Controls.Add(Me.txtSubtotal)
+        Me.Controls.Add(Me.txtTelefono)
         Me.Controls.Add(Me.txtFecha)
-        Me.Controls.Add(Me.txtNumeroFactura)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.txtFacturaNumero)
         Me.Controls.Add(Me.btnSalir)
-        Me.Controls.Add(Me.btnImprimirFactura)
-        Me.Controls.Add(Me.btnAnular)
+        Me.Controls.Add(Me.btnAnularFactura)
         Me.Controls.Add(Me.btnDetalleFactura)
+        Me.Controls.Add(Me.btnNuevo)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -298,25 +305,25 @@ Partial Class frmFactura
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents btnDetalleFactura As System.Windows.Forms.Button
-    Friend WithEvents btnAnular As System.Windows.Forms.Button
-    Friend WithEvents btnImprimirFactura As System.Windows.Forms.Button
-    Friend WithEvents btnSalir As System.Windows.Forms.Button
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents txtNumeroFactura As System.Windows.Forms.TextBox
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents btnNuevo As System.Windows.Forms.Button
+    Friend WithEvents btnDetalleFactura As System.Windows.Forms.Button
+    Friend WithEvents btnAnularFactura As System.Windows.Forms.Button
+    Friend WithEvents btnSalir As System.Windows.Forms.Button
+    Friend WithEvents txtFacturaNumero As System.Windows.Forms.TextBox
     Friend WithEvents txtFecha As System.Windows.Forms.TextBox
-    Friend WithEvents txtCodigoCliente As System.Windows.Forms.TextBox
-    Friend WithEvents txtNombreCliente As System.Windows.Forms.TextBox
-    Friend WithEvents txtDireccion As System.Windows.Forms.TextBox
     Friend WithEvents txtTelefono As System.Windows.Forms.TextBox
     Friend WithEvents txtSubtotal As System.Windows.Forms.TextBox
-    Friend WithEvents txtIva As System.Windows.Forms.TextBox
     Friend WithEvents txtTotal As System.Windows.Forms.TextBox
-    Friend WithEvents txtCedula As System.Windows.Forms.TextBox
-    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents txtIdentificacion As System.Windows.Forms.TextBox
+    Friend WithEvents txtImpuesto As System.Windows.Forms.TextBox
+    Friend WithEvents txtDireccion As System.Windows.Forms.TextBox
+    Friend WithEvents txtNombreCliente As System.Windows.Forms.TextBox
+    Friend WithEvents txtCodigoCliente As System.Windows.Forms.TextBox
 End Class

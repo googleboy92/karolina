@@ -38,9 +38,9 @@ Partial Class frmDetalleVenta
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 105)
+        Me.DataGridView1.Location = New System.Drawing.Point(3, 240)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(704, 294)
+        Me.DataGridView1.Size = New System.Drawing.Size(713, 271)
         Me.DataGridView1.TabIndex = 0
         '
         'btnEliminar
@@ -68,7 +68,7 @@ Partial Class frmDetalleVenta
         'lblTotal
         '
         Me.lblTotal.AutoSize = True
-        Me.lblTotal.Location = New System.Drawing.Point(520, 429)
+        Me.lblTotal.Location = New System.Drawing.Point(588, 208)
         Me.lblTotal.Name = "lblTotal"
         Me.lblTotal.Size = New System.Drawing.Size(34, 13)
         Me.lblTotal.TabIndex = 12
@@ -77,7 +77,7 @@ Partial Class frmDetalleVenta
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(272, 429)
+        Me.Label1.Location = New System.Drawing.Point(402, 208)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(89, 13)
         Me.Label1.TabIndex = 13
@@ -86,7 +86,7 @@ Partial Class frmDetalleVenta
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 490)
+        Me.Label2.Location = New System.Drawing.Point(12, 224)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(68, 13)
         Me.Label2.TabIndex = 14
@@ -95,7 +95,7 @@ Partial Class frmDetalleVenta
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(65, 429)
+        Me.Label3.Location = New System.Drawing.Point(271, 208)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(53, 13)
         Me.Label3.TabIndex = 14
