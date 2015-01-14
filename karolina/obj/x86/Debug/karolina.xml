@@ -15,15 +15,51 @@ karolina
   Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
   búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
 </summary>
+</member><member name="P:karolina.My.Resources.Resources._5059818630_74ed331b91_z">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:karolina.My.Resources.Resources._error">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:karolina.My.Resources.Resources.factura">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:karolina.My.Resources.Resources.Floppy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:karolina.My.Resources.Resources.guardar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:karolina.My.Resources.Resources.loginazul">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:karolina.My.Resources.Resources.loginnegro">
+</member><member name="P:karolina.My.Resources.Resources.loginverde">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:karolina.My.Resources.Resources.loginverde">
+</member><member name="P:karolina.My.Resources.Resources.nuevo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:karolina.My.Resources.Resources.nuevo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:karolina.My.Resources.Resources.nuevo2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:karolina.My.Resources.Resources.nuevo3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:karolina.My.Resources.Resources.pintura_470x260">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

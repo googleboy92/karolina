@@ -262,7 +262,8 @@ Partial Class frmFactura
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.karolina.My.Resources.Resources.factura
+        Me.BackgroundImage = Global.karolina.My.Resources.
+
         Me.ClientSize = New System.Drawing.Size(547, 456)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.txtTotal)

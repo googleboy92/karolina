@@ -97,12 +97,6 @@
     <Compile Include="frmEstock.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmFactura.Designer.vb">
-      <DependentUpon>frmFactura.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmFactura.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmLogin.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -128,11 +122,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Resources1.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmAgregarUsuario.resx">
@@ -147,9 +147,6 @@
     <EmbeddedResource Include="frmEstock.resx">
       <DependentUpon>frmEstock.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmFactura.resx">
-      <DependentUpon>frmFactura.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
     </EmbeddedResource>
@@ -163,6 +160,7 @@
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -181,9 +179,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\loginazul.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\loginnegro.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\loginverde.jpg" />
