@@ -5,8 +5,6 @@
     End Sub
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
 
-
-
         If txtUsuario.Text = "" Then
 
             txtUsuario.BackColor = Color.Red
@@ -21,7 +19,7 @@
             AvisoCritico(" Introduzca la Contraceña")
             mtbPass.Focus()
         End If
-        Conexion.Open()
+        ' Conexion.Open()
         Login(txtUsuario.Text, mtbPass.Text)
 
     End Sub
@@ -29,4 +27,6 @@
         'Cierra el Programa
         End
     End Sub
+
+   
 End Class

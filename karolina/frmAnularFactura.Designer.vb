@@ -32,6 +32,9 @@ Partial Class frmAnularFactura
         Me.txtFecha = New System.Windows.Forms.TextBox()
         Me.txtUsuario = New System.Windows.Forms.TextBox()
         Me.txtContrseña = New System.Windows.Forms.TextBox()
+        Me.btnNuevo = New System.Windows.Forms.Button()
+        Me.btnAnular = New System.Windows.Forms.Button()
+        Me.btnSalir = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -104,7 +107,7 @@ Partial Class frmAnularFactura
         '
         Me.txtUsuario.Location = New System.Drawing.Point(153, 314)
         Me.txtUsuario.Name = "txtUsuario"
-        Me.txtUsuario.Size = New System.Drawing.Size(100, 20)
+        Me.txtUsuario.Size = New System.Drawing.Size(117, 20)
         Me.txtUsuario.TabIndex = 8
         '
         'txtContrseña
@@ -114,11 +117,50 @@ Partial Class frmAnularFactura
         Me.txtContrseña.Size = New System.Drawing.Size(117, 20)
         Me.txtContrseña.TabIndex = 9
         '
+        'btnNuevo
+        '
+        Me.btnNuevo.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnNuevo.Location = New System.Drawing.Point(285, 132)
+        Me.btnNuevo.Name = "btnNuevo"
+        Me.btnNuevo.Size = New System.Drawing.Size(78, 69)
+        Me.btnNuevo.TabIndex = 11
+        Me.btnNuevo.Text = "Nuevo"
+        Me.btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnNuevo.UseVisualStyleBackColor = False
+        '
+        'btnAnular
+        '
+        Me.btnAnular.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnAnular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAnular.Location = New System.Drawing.Point(285, 221)
+        Me.btnAnular.Name = "btnAnular"
+        Me.btnAnular.Size = New System.Drawing.Size(78, 69)
+        Me.btnAnular.TabIndex = 12
+        Me.btnAnular.Text = "Anular"
+        Me.btnAnular.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnAnular.UseVisualStyleBackColor = False
+        '
+        'btnSalir
+        '
+        Me.btnSalir.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSalir.Location = New System.Drawing.Point(285, 313)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(78, 69)
+        Me.btnSalir.TabIndex = 13
+        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnSalir.UseVisualStyleBackColor = False
+        '
         'frmAnularFactura
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(390, 429)
+        Me.Controls.Add(Me.btnSalir)
+        Me.Controls.Add(Me.btnAnular)
+        Me.Controls.Add(Me.btnNuevo)
         Me.Controls.Add(Me.txtContrseña)
         Me.Controls.Add(Me.txtUsuario)
         Me.Controls.Add(Me.txtFecha)
@@ -145,4 +187,7 @@ Partial Class frmAnularFactura
     Friend WithEvents txtFecha As System.Windows.Forms.TextBox
     Friend WithEvents txtUsuario As System.Windows.Forms.TextBox
     Friend WithEvents txtContrseña As System.Windows.Forms.TextBox
+    Friend WithEvents btnNuevo As System.Windows.Forms.Button
+    Friend WithEvents btnAnular As System.Windows.Forms.Button
+    Friend WithEvents btnSalir As System.Windows.Forms.Button
 End Class

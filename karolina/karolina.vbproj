@@ -222,6 +222,15 @@
   <ItemGroup>
     <None Include="Resources\5059818630_74ed331b91_z.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondofactura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondofactura1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondofactura2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -26,3 +26,5 @@ D:\karolina\karolina\obj\x86\Debug\karolina.exe
 D:\karolina\karolina\obj\x86\Debug\karolina.vbproj.GenerateResource.Cache
 D:\karolina\karolina\obj\x86\Debug\karolina.frmDetalleVenta.resources
 D:\karolina\karolina\obj\x86\Debug\karolina.frmEstock.resources
+D:\karolina\karolina\obj\x86\Debug\karolina.frmAnularFactura.resources
+D:\karolina\karolina\obj\x86\Debug\karolina.frmFactura.resources
